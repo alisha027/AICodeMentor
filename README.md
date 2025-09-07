@@ -67,33 +67,33 @@ This makes it the **ideal choice** for building a real-time AI mentor system.
 
 ---
 
-## ⚙️ **Installation & Setup**
+⚙️ Installation & Setup
 
-Clone the repository:
+Follow these steps to set up and run the project:
 
-```bash
-git clone https://github.com/alisha027/AICodeMentor.git
-cd AICodeMentor
-```
+1️⃣ Run Notebook in Google Colab
 
-Install dependencies:
+Open aicodementor.ipynb in Google Colab.
 
-```bash
+Inside the notebook, add your Ngrok Auth Token (generated from https://ngrok.com
+).
+
+Run all cells. This will give you a public Ngrok link.
+
+2️⃣ Update app.py
+
+Copy the Ngrok link from Colab.
+
+Open app.py and replace the placeholder URL with your new Ngrok link.
+
+3️⃣ Install Dependencies
 pip install -r requirements.txt
-```
 
-Run the app with Streamlit:
-
-```bash
+4️⃣ Run the Streamlit App
 streamlit run app.py
-```
 
-Expose app with ngrok (if needed):
 
-```bash
-ngrok http 8501
-```
-
+Your AI Code Mentor app will now be live 🎉
 ## ✨ **Features**
 
 * ✅ Detects and fixes code errors
