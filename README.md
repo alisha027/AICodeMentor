@@ -66,34 +66,40 @@ This makes it the **ideal choice** for building a real-time AI mentor system.
 * **Live Demo (Streamlit):** [Try it here](https://aicodementor-74kskbuwjxmrjaymzrwnea.streamlit.app/)
 
 ---
-
 ⚙️ Installation & Setup
 
 Follow these steps to set up and run the project:
 
 1️⃣ Run Notebook in Google Colab
 
-Open aicodementor.ipynb in Google Colab.
+* Open aicodementor.ipynb in Google Colab
 
-Inside the notebook, add your Ngrok Auth Token (generated from https://ngrok.com
-).
+* Add your Ngrok Auth Token (from ngrok.com
+) inside the notebook
 
-Run all cells. This will give you a public Ngrok link.
+* Run all cells → this will generate a public OLLAMA link
 
 2️⃣ Update app.py
 
-Copy the Ngrok link from Colab.
+* Copy the Ngrok link from Colab
 
-Open app.py and replace the placeholder URL with your new Ngrok link.
+* Open app.py
+
+* Replace the placeholder URL with your new OLLAMA link
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+
+* pip install -r requirements.txt
+
 
 4️⃣ Run the Streamlit App
-streamlit run app.py
+
+* streamlit run app.py
 
 
-Your AI Code Mentor app will now be live 🎉
+✅ Your AI Code Mentor app will now be live 🎉
+
+
 ## ✨ **Features**
 
 * ✅ Detects and fixes code errors
